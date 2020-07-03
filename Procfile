@@ -1,1 +1,1 @@
-web: node config/db.js
+web: node server.js
