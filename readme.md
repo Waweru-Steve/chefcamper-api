@@ -22,5 +22,24 @@ npm run dev
 npm start
 ```
 
+## Database Seeder
+
+To seed the database with users, bootcamps, courses and reviews with data from the "\_data" folder, run
+
+```
+# Destroy all data
+node seeder -d
+
+# Import all data
+node seeder -i
+```
+
+## Demo
+
+The API is live at chefcamper-api.herokuapp.com
+
+Extensive documentation with examples <a href="https://documenter.getpostman.com/view/11514710/T17FC9HY?version=latest">here</a>
+
 - Version: 1.0.0
 - License: MIT
+- Author: Steve Waweru
